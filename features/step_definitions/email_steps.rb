@@ -15,6 +15,5 @@ Then /^I should see the email sign up success message$/ do
 end
 
 Then /^I should not see the email sign up succsess message$/ do
-  binding.pry
   @prada.messages.success_message("Thanks! We will notify you of our new shoes at this email: #{@email}".strip).should_not be_present
 end
