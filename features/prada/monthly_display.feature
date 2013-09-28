@@ -1,3 +1,4 @@
+@prada
 Feature: Monthly display of new releases
   In order to view upcoming shoes being released every month
   As a user of the Shoe store

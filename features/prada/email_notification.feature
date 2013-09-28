@@ -1,3 +1,4 @@
+@prada
 Feature: Email notification feature
   In order to be reminded of upcoming shoe releases
   As a user of the Shoe Store
