@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'taza', :git => 'https://github.com/hammernight/taza.git'
-gem 'cucumber', '1.2.1'
-gem 'watir-webdriver'
+gem 'taza', '~> 3.0'
+gem 'cucumber'
+gem 'watir', '~> 6.0'
 gem 'selenium-webdriver'
 gem 'rspec'
+gem 'os'
 
 gem 'pry'
 gem 'pry-nav'
